@@ -2,15 +2,15 @@ version: '3'
 services:
   server:
     build:
-      context: ./
-      dockerfile: Dockerfile.server
+      context: ../adventure-atlas-backend
+      dockerfile: Dockerfile
     container_name: server
     ports:
       - 8080:8080
 
   ui:
     build:
-      context: ./
+      context: ../adventure-atlas-frontend
       dockerfile: Dockerfile.ui
     container_name: ui
     ports:

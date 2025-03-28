@@ -1,0 +1,6 @@
+[submodule "adventure-atlas-frontend"]
+	path = adventure-atlas-frontend
+	url = https://github.com/luca-sentenstein/adventure-atlas-frontend.git
+[submodule "adventure-atlas-backend"]
+	path = adventure-atlas-backend
+	url = https://github.com/luca-sentenstein/adventure-atlas-backend.git

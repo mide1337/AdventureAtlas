@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     build:
-      context: ../adventure-atlas-backend
+      context: ./adventure-atlas-backend
       dockerfile: Dockerfile
     container_name: server
     ports:
@@ -10,8 +10,8 @@ services:
 
   ui:
     build:
-      context: ../adventure-atlas-frontend
-      dockerfile: Dockerfile.ui
+      context: ./adventure-atlas-frontend
+      dockerfile: Dockerfile
     container_name: ui
     ports:
       - 4200:80
